@@ -191,7 +191,7 @@ async def on_message(message):
 async def on_ready():
     print("Zalogowany jako", client.user)
     channel = client.get_channel(CHANNEL_ID)
-    await channel.send("**Zgony v1.0.0 by wLoDaRr** uruchomione ✅ **Skanowanie Cylerii w toku !!**")
+    await channel.send("**Zgony v1.0.0 by wLoDaRr** uruchomione ✅ ✅✅**Skanowanie Cylerii w toku !!**✅✅")
     client.loop.create_task(check_loop())
 
 client.run(DISCORD_TOKEN)
