@@ -126,7 +126,7 @@ async def check_loop():
                     continue
 
                 victim = make_char_link(name)
-                msg = f"🕒 {time}\n@everyone Zginął 🟢 **{victim}** na poziomie {level} przez "
+                msg = f"@everyone\n🕒 {time}\n Zginął 🟢 **{victim}** na poziomie {level} przez "
 
                 if is_player(killer):
                     killers = split_killers(killer)
